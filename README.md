@@ -1,4 +1,4 @@
-# WITS Behavioral Health EHR Implementation — PMO Governance Project
+# Behavioral Health EHR Implementation - PMO Governance Project
 
 A simulated Project Management Office (PMO) governance project built in Azure DevOps, modeling the Project Analyst workflow for a state behavioral health agency implementing the WITS electronic health record platform.
 
