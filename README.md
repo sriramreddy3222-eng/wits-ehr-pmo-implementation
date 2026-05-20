@@ -45,19 +45,19 @@ Work item states reflect a project in mid-execution. Sprints 1 through 3 are com
 
 The six implementation phases, with states reflecting current progress.
 
-![Epics board](images/epics.png)
+![Epics board](epics.png)
 
 ### Features
 
 Fifteen Features distributed across the six Epics, each linked to its parent and carrying its own state and child count.
 
-![Features board](images/features.png)
+![Features board](features.png)
 
 ### Product Backlog Items
 
 Eighteen PBIs across New, Committed, and Done states, each with an effort estimate and a parent Feature.
 
-![PBI board](images/pbi.png)
+![PBI board](pbi.png)
 
 ---
 
@@ -69,13 +69,13 @@ Each work item carries a description, acceptance criteria, an effort estimate wh
 
 A PBI with description, acceptance criteria, effort estimate, and parent link.
 
-![PBI detail](images/pbi-expanded.png)
+![PBI detail](pbi-expanded.png)
 
 ### Example - Feature
 
 A Feature showing its acceptance criteria, parent Epic, and child PBI.
 
-![Feature detail](images/feature-expanded.png)
+![Feature detail](feature-expanded.png)
 
 ---
 
@@ -83,13 +83,13 @@ A Feature showing its acceptance criteria, parent Epic, and child PBI.
 
 Risks, assumptions, issues, and dependencies are tracked as Impediments, tagged by category and severity. Three of the eight items are healthcare-compliance specific - they cover 42 CFR Part 2 consent requirements, SAMHSA reporting stability, and Medicaid interface assumptions.
 
-![RAID log](images/raid-log.png)
+![RAID log](raid-log.png)
 
 ### Example - RAID item
 
 A risk item with mitigation approach and defined resolution criteria.
 
-![RAID detail](images/impediment-expanded.png)
+![RAID detail](impediment-expanded.png)
 
 ---
 
@@ -97,7 +97,7 @@ A risk item with mitigation approach and defined resolution criteria.
 
 A single reporting view built from shared queries. The top band carries the headline metrics - sprint position, backlog size, completion, active risks, and total RAID items. Below it, three charts show backlog status, work item composition, and RAID profile. Two narrative panels carry the project snapshot and a mid-project retrospective.
 
-![Executive dashboard](images/dashboard.png)
+![Executive dashboard](dashboard.png)
 
 The dashboard deliberately does not include a sprint burndown. Burndown is calculated from historical state-change data, and without genuine day-by-day progression that chart would mislead the viewer. Knowing when not to use a metric is part of the reporting discipline.
 
@@ -109,13 +109,13 @@ The project includes an Azure DevOps wiki covering four areas: a project overvie
 
 ### Project Overview
 
-![Wiki - Project Overview](images/wiki-overview.png)
+![Wiki - Project Overview](wiki-overview.png)
 
 ### Governance and Cadence
 
 The governance model defines the meeting rhythm, reporting cycle, decision authority, escalation tiers, and change control process.
 
-![Wiki - Governance and Cadence](images/wiki-governance.png)
+![Wiki - Governance and Cadence](wiki-governance.png)
 
 ---
 
